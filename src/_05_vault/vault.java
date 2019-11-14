@@ -1,0 +1,19 @@
+package _05_vault;
+
+import java.util.Random;
+
+public class vault {
+	
+	Random mikejohnson=new Random();
+	int code=mikejohnson.nextInt(10);
+	boolean trycode(int guess) {
+		if(guess==(code)) {
+			return true;
+		}
+		else {
+		return false;}
+	}
+public static void main(String[] args) {
+	
+}
+}
