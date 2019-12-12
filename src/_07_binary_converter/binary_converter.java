@@ -59,7 +59,8 @@ String convert(String input) {
 @Override
 public void actionPerformed(ActionEvent e) {
 	// TODO Auto-generated method stub
-	convert(y1.getText());
+	String u=convert(f.getText());
+	y.setText(u);
 	
 }
 }
